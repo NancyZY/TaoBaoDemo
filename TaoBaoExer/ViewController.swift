@@ -14,6 +14,8 @@ UINavigationControllerDelegate, ScancodeDelegate {
     @IBOutlet weak var galleryPageControl: UIPageControl!
     @IBOutlet weak var hotTopContainerView: UIView!
     
+    @IBOutlet weak var scrollViewHegihtConstraint: NSLayoutConstraint!
+    
     var timer:NSTimer!
     var currentPage = 0
     
@@ -118,7 +120,7 @@ UINavigationControllerDelegate, ScancodeDelegate {
         let height = width / 32.0 * 13
         
         galleryScrollView.delegate = self;
-        galleryScrollView.contentSize = CGSizeMake(width * 3.0, height)
+        scrollViewHegihtConstraint.constant = height
         
          for index in 1...3 {
             let imageView = UIImageView(frame: CGRectMake(width * CGFloat(index-1), 0, width, height))
