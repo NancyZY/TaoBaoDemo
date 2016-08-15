@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		849B87CF02FDBAD877502F24 /* Pods_TaoBaoExer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86DBA17C273AFC2037E6189 /* Pods_TaoBaoExer.framework */; };
 		B935F9361D534A7200FD7EB3 /* Color+Extension.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = B935F9351D534A7100FD7EB3 /* Color+Extension.swift .swift */; };
 		B98BF84A1D54CED50047B07F /* BannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B98BF8491D54CED50047B07F /* BannerView.xib */; };
 		B98BF84C1D54CFF30047B07F /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98BF84B1D54CFF30047B07F /* BannerView.swift */; };
 		B9AE47241D58289600DA9841 /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE47231D58289600DA9841 /* Configure.swift */; };
+		B9AE47261D5ADB4800DA9841 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE47251D5ADB4800DA9841 /* Community.swift */; };
+		B9AE47281D5C428700DA9841 /* MarkDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE47271D5C428700DA9841 /* MarkDown.swift */; };
+		B9AE472A1D5CB20A00DA9841 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE47291D5CB20A00DA9841 /* UIImage+Extension.swift */; };
 		B9E55BA61D51AF3300D0BD77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E55BA51D51AF3300D0BD77 /* AppDelegate.swift */; };
 		B9E55BA81D51AF3300D0BD77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E55BA71D51AF3300D0BD77 /* ViewController.swift */; };
 		B9E55BAB1D51AF3300D0BD77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E55BA91D51AF3300D0BD77 /* Main.storyboard */; };
@@ -21,10 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F7A3DB216A3FA6F4B6A67C6 /* Pods-TaoBaoExer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaoBaoExer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaoBaoExer/Pods-TaoBaoExer.debug.xcconfig"; sourceTree = "<group>"; };
+		5D1642ACFF5C535BC14467E9 /* Pods-TaoBaoExer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaoBaoExer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaoBaoExer/Pods-TaoBaoExer.release.xcconfig"; sourceTree = "<group>"; };
+		B86DBA17C273AFC2037E6189 /* Pods_TaoBaoExer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaoBaoExer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B935F9351D534A7100FD7EB3 /* Color+Extension.swift .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift .swift"; sourceTree = "<group>"; };
 		B98BF8491D54CED50047B07F /* BannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerView.xib; sourceTree = "<group>"; };
 		B98BF84B1D54CFF30047B07F /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		B9AE47231D58289600DA9841 /* Configure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
+		B9AE47251D5ADB4800DA9841 /* Community.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
+		B9AE47271D5C428700DA9841 /* MarkDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkDown.swift; sourceTree = "<group>"; };
+		B9AE47291D5CB20A00DA9841 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		B9E55BA21D51AF3300D0BD77 /* TaoBaoExer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoBaoExer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E55BA51D51AF3300D0BD77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9E55BA71D51AF3300D0BD77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849B87CF02FDBAD877502F24 /* Pods_TaoBaoExer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		788B110BB048F2BEA406C9B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F7A3DB216A3FA6F4B6A67C6 /* Pods-TaoBaoExer.debug.xcconfig */,
+				5D1642ACFF5C535BC14467E9 /* Pods-TaoBaoExer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91BA544AED45CD4A4853F3C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B86DBA17C273AFC2037E6189 /* Pods_TaoBaoExer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9E55B991D51AF3300D0BD77 = {
 			isa = PBXGroup;
 			children = (
 				B9E55BA41D51AF3300D0BD77 /* TaoBaoExer */,
 				B9E55BA31D51AF3300D0BD77 /* Products */,
+				788B110BB048F2BEA406C9B1 /* Pods */,
+				91BA544AED45CD4A4853F3C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +108,9 @@
 				B98BF8491D54CED50047B07F /* BannerView.xib */,
 				B98BF84B1D54CFF30047B07F /* BannerView.swift */,
 				B9AE47231D58289600DA9841 /* Configure.swift */,
+				B9AE47251D5ADB4800DA9841 /* Community.swift */,
+				B9AE47271D5C428700DA9841 /* MarkDown.swift */,
+				B9AE47291D5CB20A00DA9841 /* UIImage+Extension.swift */,
 			);
 			path = TaoBaoExer;
 			sourceTree = "<group>";
@@ -89,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9E55BB41D51AF3300D0BD77 /* Build configuration list for PBXNativeTarget "TaoBaoExer" */;
 			buildPhases = (
+				3DF0C312AF0BA2D9C3CB6794 /* [CP] Check Pods Manifest.lock */,
 				B9E55B9E1D51AF3300D0BD77 /* Sources */,
 				B9E55B9F1D51AF3300D0BD77 /* Frameworks */,
 				B9E55BA01D51AF3300D0BD77 /* Resources */,
+				86182397C9BB1DABF0B44BCC /* [CP] Embed Pods Frameworks */,
+				0F783660F01F4A660F15DE10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,6 +186,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F783660F01F4A660F15DE10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaoBaoExer/Pods-TaoBaoExer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF0C312AF0BA2D9C3CB6794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86182397C9BB1DABF0B44BCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaoBaoExer/Pods-TaoBaoExer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B9E55B9E1D51AF3300D0BD77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -162,6 +246,9 @@
 				B98BF84C1D54CFF30047B07F /* BannerView.swift in Sources */,
 				B9E55BBC1D51E45C00D0BD77 /* TakePhotoViewController.swift in Sources */,
 				B9E55BBA1D51DA7100D0BD77 /* ScanViewController.swift in Sources */,
+				B9AE472A1D5CB20A00DA9841 /* UIImage+Extension.swift in Sources */,
+				B9AE47261D5ADB4800DA9841 /* Community.swift in Sources */,
+				B9AE47281D5C428700DA9841 /* MarkDown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +359,7 @@
 		};
 		B9E55BB51D51AF3300D0BD77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7A3DB216A3FA6F4B6A67C6 /* Pods-TaoBaoExer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TaoBaoExer/Info.plist;
@@ -283,6 +371,7 @@
 		};
 		B9E55BB61D51AF3300D0BD77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1642ACFF5C535BC14467E9 /* Pods-TaoBaoExer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TaoBaoExer/Info.plist;

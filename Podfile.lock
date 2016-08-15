@@ -1,0 +1,15 @@
+PODS:
+  - RichEditorView (3.2.0)
+  - SwiftyDown (0.0.5)
+
+DEPENDENCIES:
+  - RichEditorView
+  - SwiftyDown
+
+SPEC CHECKSUMS:
+  RichEditorView: b4ee60a4f5301cbe8f3fcb1f065cdd7de74ddd10
+  SwiftyDown: 276c39aeaa6207d10fa3ab81468ba37655a0f072
+
+PODFILE CHECKSUM: 1c2993cce82aa24caf5eb5260be200f912dd7ef9
+
+COCOAPODS: 1.0.1
