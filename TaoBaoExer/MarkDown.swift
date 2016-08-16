@@ -16,33 +16,30 @@ class MarkDown: UIViewController,UITextViewDelegate {
     @IBOutlet weak var originText: UITextView!
     
     
-    var trashItem : UIBarButtonItem {
-        return UIBarButtonItem(barButtonSystemItem: .Trash, target: self, action: "clickCenter:")
-    }
+    var trashItem : UIBarButtonItem!
     
     var flexableSpaceItem : UIBarButtonItem {
         return UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FlexibleSpace, target: nil, action: nil)
     }
     
-    
-    var doneSpaceItem : UIBarButtonItem {
-        return UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Plain, target: self, action: "clickCenter:")
-    }
-    
+    var doneSpaceItem : UIBarButtonItem!
     
     var secondFlexableSpaceItem : UIBarButtonItem {
         return UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FlexibleSpace, target: nil, action: nil)
     }
     
-    var geishaItem : UIBarButtonItem {
-        return UIBarButtonItem(image:UIImage(named:"geisha"), style: .Done, target: self, action: "clickCenter:")
-    }
-    
+    var geishaItem : UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         originText.text = "enter something..."
         originText.delegate = self
+        
+        trashItem = UIBarButtonItem(barButtonSystemItem: .Trash, target: self, action: "clickCenter:")
+        
+        doneSpaceItem = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Plain, target: self, action: "clickCenter:")
+        
+        geishaItem = UIBarButtonItem(image:UIImage(named:"geisha"), style: .Done, target: self, action: "clickCenter:")
         
         trashItem.tag = 101
         doneSpaceItem.tag = 102
