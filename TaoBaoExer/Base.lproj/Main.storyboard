@@ -39,7 +39,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AT8-31-Dcq">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <state key="normal" image="8F6A6C6B-44B3-4372-80F2-77ADD29E1624"/>
+                                        <state key="normal" image="0102C7B5-A91C-482B-8BFA-BCBD768AA156"/>
                                         <connections>
                                             <segue destination="fX6-bm-SVd" kind="show" identifier="scanSegue" id="H7r-PC-d4U"/>
                                         </connections>
@@ -829,6 +829,12 @@
                                 <exclude reference="zz0-NS-hUt"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="x6q-Mc-llp"/>
+                                <exclude reference="9CE-y1-Z3Y"/>
+                                <exclude reference="Nc0-Om-blc"/>
+                                <exclude reference="ebQ-JU-W1D"/>
+                                <exclude reference="iGA-xK-aDS"/>
+                                <exclude reference="xl1-vH-m4s"/>
                                 <exclude reference="4cL-wB-W7F"/>
                                 <exclude reference="9mZ-ea-wgW"/>
                                 <exclude reference="Dx4-ma-o69"/>
@@ -838,17 +844,11 @@
                                 <exclude reference="TON-XD-FY2"/>
                                 <exclude reference="wfE-rl-jga"/>
                                 <exclude reference="z4P-5t-nb3"/>
-                                <exclude reference="9CE-y1-Z3Y"/>
-                                <exclude reference="Nc0-Om-blc"/>
-                                <exclude reference="ebQ-JU-W1D"/>
-                                <exclude reference="iGA-xK-aDS"/>
-                                <exclude reference="xl1-vH-m4s"/>
                                 <exclude reference="3z9-WZ-dIM"/>
                                 <exclude reference="4lh-eN-cBZ"/>
                                 <exclude reference="9mz-zK-mhh"/>
                                 <exclude reference="CZe-Ga-zlf"/>
                                 <exclude reference="bH9-aM-w10"/>
-                                <exclude reference="x6q-Mc-llp"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -859,6 +859,12 @@
                                 <include reference="zz0-NS-hUt"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="x6q-Mc-llp"/>
+                                <include reference="9CE-y1-Z3Y"/>
+                                <include reference="Nc0-Om-blc"/>
+                                <include reference="ebQ-JU-W1D"/>
+                                <include reference="iGA-xK-aDS"/>
+                                <include reference="xl1-vH-m4s"/>
                                 <exclude reference="4cL-wB-W7F"/>
                                 <include reference="9mZ-ea-wgW"/>
                                 <exclude reference="Dx4-ma-o69"/>
@@ -868,17 +874,11 @@
                                 <include reference="TON-XD-FY2"/>
                                 <include reference="wfE-rl-jga"/>
                                 <include reference="z4P-5t-nb3"/>
-                                <include reference="9CE-y1-Z3Y"/>
-                                <include reference="Nc0-Om-blc"/>
-                                <include reference="ebQ-JU-W1D"/>
-                                <include reference="iGA-xK-aDS"/>
-                                <include reference="xl1-vH-m4s"/>
                                 <include reference="3z9-WZ-dIM"/>
                                 <include reference="4lh-eN-cBZ"/>
                                 <include reference="9mz-zK-mhh"/>
                                 <include reference="CZe-Ga-zlf"/>
                                 <include reference="bH9-aM-w10"/>
-                                <exclude reference="x6q-Mc-llp"/>
                             </mask>
                         </variation>
                     </view>
@@ -913,7 +913,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="8F6A6C6B-44B3-4372-80F2-77ADD29E1624" width="20" height="20">
+        <image name="0102C7B5-A91C-482B-8BFA-BCBD768AA156" width="20" height="20">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
